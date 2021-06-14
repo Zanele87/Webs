@@ -1,0 +1,64 @@
+ body {
+    /* you can use a more complete font-family from VSCode as well */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.main {
+    background-color : lightseagreen;
+}
+
+@media(min-width:800px){
+    /* Other css is here still */
+
+    .menu {
+        display: flex;
+    }
+}
+
+/* remove the list item dots*/
+    .menu li {
+        list-style: none;
+    }
+    
+    
+    .menu a {
+        /* Ensure one can click anyware in the li for the link */
+        padding: 1em;
+        display: block;
+        width: 6em;
+    }
+
+    .menu a:hover {
+        /* Change the menu color to darker green when hovering over a link*/
+        background-color : greenyellow;
+    }
+
+.footer {
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+@media(min-width:800px){
+    .side-bar {
+        float: left;
+        width: 25%;
+    }
+}
+
+ .side-bar {
+        padding: 1em;
+}
+
+.content {
+    padding: 1em;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
